@@ -102,6 +102,8 @@ body {
     display: flex;
 }
 
+
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -159,6 +161,8 @@ padding-bottom: 32px;
 }
 
 .mail-address {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -175,7 +179,18 @@ padding-bottom: 32px;
     color:var(--accent-color);
 }
 
+.mail-address:hover .mail-address-icon,
+.mail-address:focus .mail-address-icon{
+    fill:var(--accent-color);
+}
+
+.mail-address-icon {
+    margin-right: 10px;
+}
+
 .phone-number {
+    display: flex;
+    align-items: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -189,6 +204,16 @@ letter-spacing: 0.02em;
 .phone-number:hover,
 .phone-number:focus {
     color:var(--accent-color);
+}
+
+
+.phone-number:hover .phone-number-icon,
+.phone-number:focus .phone-number-icon {
+    fill:var(--accent-color);
+}
+
+.phone-number-icon {
+    margin-right: 10px;
 }
 
 /* ==================Hero================== */
@@ -262,6 +287,13 @@ margin-bottom: 40px;
     margin-top: -30px;
     margin-left: -30px;
 }
+
+.advantages-container-icon {
+    padding: 25px 102px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;;
+}
+
 
 
 .advantages-container-item {
