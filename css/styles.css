@@ -186,6 +186,7 @@ padding-bottom: 32px;
 
 .mail-address-icon {
     margin-right: 10px;
+    fill: #757575;
 }
 
 .phone-number {
@@ -214,6 +215,7 @@ letter-spacing: 0.02em;
 
 .phone-number-icon {
     margin-right: 10px;
+    fill: #757575;
 }
 
 /* ==================Hero================== */
@@ -289,7 +291,11 @@ margin-bottom: 40px;
 }
 
 .advantages-container-icon {
-    padding: 25px 102px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     background-color: #F5F4FA;;
 }
@@ -377,6 +383,9 @@ margin-bottom: 40px;
 .our-team-content-wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
 
     background: #FFFFFF;
 /* material shadow v1 */
@@ -418,6 +427,89 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list-icon {
+    fill: #AFB1B8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color:var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: #FFFFFF;;
+}
+
+/* ==================Our clients================== */
+
+.our-clients-title {
+    font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+
+margin-bottom: 50px;
+}
+
+.our-clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-clients-icon {
+    fill:#AFB1B8;
+}
+
+.our-clients-list-link {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+border-radius: 4px;
+
+cursor: pointer;
+}
+
+.our-clients-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-clients-list-link:hover .our-clients-icon,
+.our-clients-list-link:focus .our-clients-icon {
+    fill:var(--accent-color);
 }
 
 /* ==================Footer================== */
