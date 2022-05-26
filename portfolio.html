@@ -20,7 +20,7 @@
         <a class="logo logo-header link" href="./index.html">Web<span class="logo logo-2-theme-light">Studio</span></a>
         <ul class="menu list">
             <li class="menu-item">
-                <a class="menu-link link" href=./index.html>Студия</a>
+                <a class="menu-link link " href=./index.html>Студия</a>
             </li>
             <li class="menu-item">
                 <a class="menu-link link current" href="./portfolio.html">Портфолио</a>
@@ -32,10 +32,20 @@
     </nav>
     <ul class="menu-address link list">
         <li class="menu-address-item">
-            <a class="mail-address link list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="mail-address link list" href="mailto:info@devstudio.com">
+            <svg class="mail-address-icon" width="16" height="12">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+        </a>
         </li>
         <li class="menu-address-item">
-            <a class="phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="phone-number link" href="tel:+380961111111">
+                <svg class="phone-number-icon" width="10" height="16">
+                    <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+            </a>
         </li>
     </ul>
 </div>
@@ -149,10 +159,11 @@
 </main>
 <footer class="footer">
     <div class="container footer-container">
+    <div class="footer-address">
             <a class="logo-footer link" href="">Web<span class="logo logo-2-theme-dark">Studio</span></a>
         <address class="footer-contacts">
             <ul id="contacts" class="footer-list list">
-                <li class="footer-list-item ">
+                <li class="footer-list-item">
                     <a class="footer-address link" href="https://goo.gl/maps/5pLSyK26MjpnqcrL8" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li class="footer-list-item">
@@ -164,6 +175,40 @@
             </ul>
         </address> 
     </div>
+    <div class="footer-join">
+        <h2 class="footer-join-title">Присоединяйтесь</h2>
+        <ul class="footer-join-list list">
+            <li class="footer-join-list-item">
+                <a class="footer-join-list-link" href="">
+                    <svg class="footer-join-list-icon" width="20px" height="20px">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-join-list-item">
+                <a class="footer-join-list-link" href="">
+                    <svg class="footer-join-list-icon" width="20" height="16">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-join-list-item">
+                <a class="footer-join-list-link" href="">
+                    <svg class="footer-join-list-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-join-list-item">
+                <a class="footer-join-list-link" href="">
+                    <svg class="footer-join-list-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 </footer>
 </body>
 </html>
