@@ -503,18 +503,24 @@ margin-bottom: 50px;
 
     border: 1px solid #AFB1B8;
 border-radius: 4px;
-
-cursor: pointer;
 }
 
 .our-clients-list-item:not(:last-child) {
     margin-right: 30px;
 }
 
+.our-clients-list-link:hover,
+.our-clients-list-link:focus {
+    border-color: var(--accent-color);
+}
+
 .our-clients-list-link:hover .our-clients-icon,
 .our-clients-list-link:focus .our-clients-icon {
     fill:var(--accent-color);
 }
+
+
+
 
 /* ==================Footer================== */
 
@@ -661,6 +667,7 @@ cursor: pointer;
 color: inherit;
 background-color: #F5F4FA;
 border-radius: 4px;
+border: none;
 
 padding: 6px 22px;
 }
